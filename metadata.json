@@ -1,0 +1,7 @@
+{
+  "name": "Conectados com o Planeta: A Revolução da Reciclagem",
+  "description": "Uma iniciativa para transformar a gestão de resíduos em um hábito coletivo. Descubra o impacto ambiental, social e econômico da reciclagem e aprenda como você pode contribuir para uma economia circular e sustentável.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
