@@ -254,4 +254,28 @@ const RecyclingCenterFinder: React.FC = () => {
       <div className="mt-12 max-w-4xl mx-auto">
         {isLoading && (
             <div className="text-center py-8">
-                <div className="inline-block animate
+                <div className="inline-block animate-spin rounded-full h-10 w-10 border-b-2 border-green-500"></div>
+                <p className="mt-4 text-gray-600">Encontrando centros...</p>
+            </div>
+        )}
+        {error && <p className="text-center text-red-600 bg-red-100 p-4 rounded-md font-semibold">{error}</p>}
+        {!isLoading && !error && searched && (
+          results.length > 0 ? (
+            <div className="space-y-6">
+              {results.map((center, index) => (
+                <ResultCard key={index} center={center} />
+              ))}
+            </div>
+          ) : (
+             <div className="text-center py-8 bg-white rounded-lg shadow-sm">
+                <h3 className="text-xl font-semibold text-gray-700">Nenhum Resultado Encontrado</h3>
+                <p className="text-gray-500 mt-2">Tente ajustar sua localização ou filtro de material.</p>
+            </div>
+          )
+        )}
+      </div>
+    </Section>
+  );
+};
+
+export default RecyclingCenterFinder;

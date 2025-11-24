@@ -6,7 +6,6 @@ import ProblemSection from './components/ProblemSection';
 import SolutionSection from './components/SolutionSection';
 import ImpactSection from './components/ImpactSection';
 import ActionableSteps from './components/ActionableSteps';
-import RecyclingCenterFinder from './components/RecyclingCenterFinder';
 import RecycleAssistant from './components/RecycleAssistant';
 import InstagramFeed from './components/InstagramFeed';
 import Footer from './components/Footer';
@@ -21,7 +20,6 @@ const App: React.FC = () => {
         <SolutionSection />
         <ImpactSection />
         <ActionableSteps />
-        <RecyclingCenterFinder />
         <RecycleAssistant />
         <InstagramFeed />
       </main>

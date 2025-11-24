@@ -19,7 +19,6 @@ const Header: React.FC = () => {
           <a href="#solution" className="text-gray-600 hover:text-green-500 transition duration-300">A Solução</a>
           <a href="#impact" className="text-gray-600 hover:text-green-500 transition duration-300">Nosso Impacto</a>
           <a href="#action" className="text-gray-600 hover:text-green-500 transition duration-300">Aja Agora</a>
-          <a href="#finder" className="text-gray-600 hover:text-green-500 transition duration-300">Encontre um Centro</a>
           <a href="#instagram" className="text-gray-600 hover:text-green-500 transition duration-300">Nossas Ações</a>
         </nav>
       </div>
